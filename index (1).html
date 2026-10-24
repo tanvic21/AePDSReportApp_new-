@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="mr" data-lang="mr" data-bilingual>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>एपीडीएस दुकान अहवाल | AePDS Shop Report</title>
+<meta name="description" content="रेशन दुकानदारांसाठी दैनिक आणि मासिक विक्री अहवाल पीडीएफमध्ये. एका दुकानासाठी एकदाच ₹100. Daily and monthly sales reports for ration shop owners, as PDFs. One-time ₹100 per shop.">
+<meta name="theme-color" content="#2F2A93">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='10' fill='none' stroke='%232F2A93' stroke-width='6'/%3E%3Ctext x='32' y='45' font-size='36' font-weight='700' text-anchor='middle' fill='%232F2A93' font-family='sans-serif'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="site.js"></script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="t-mr" lang="mr">एपीडीएस दुकान अहवाल</span><span class="t-en" lang="en">AePDS Shop Report</span>
+    </a>
+    <nav class="site-nav">
+      <a href="#how"><span class="t-mr" lang="mr">कसे सुरू करायचे</span><span class="t-en" lang="en">How to start</span></a>
+      <a href="#price"><span class="t-mr" lang="mr">किंमत</span><span class="t-en" lang="en">Price</span></a>
+      <a href="#help"><span class="t-mr" lang="mr">मदत</span><span class="t-en" lang="en">Help</span></a>
+      <button type="button" class="lang-btn" data-lang-toggle aria-label="Switch to English"><span class="t-mr" lang="en">English</span><span class="t-en" lang="mr">मराठी</span></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>
+          <span class="t-mr" lang="mr">तुमच्या रेशन दुकानाचे अहवाल, फोनवर पीडीएफमध्ये.</span>
+          <span class="t-en" lang="en">Your ration shop reports, as PDFs on your phone.</span>
+        </h1>
+        <p class="lead">
+          <span class="t-mr" lang="mr">एपीडीएस पोर्टलवरून तुमच्या दुकानाची माहिती आणून दैनिक आणि मासिक विक्री अहवाल तयार करा. अहवाल शेअर करा किंवा फोनवर जतन करा.</span>
+          <span class="t-en" lang="en">Fetch your shop's data from the AePDS portal and make daily and monthly sales reports. Share them or save them on your phone.</span>
+        </p>
+        <div class="actions">
+          <a class="btn" href="aepds-shop-report-v1.1.apk" download>
+            <span class="t-mr" lang="mr">ॲप डाउनलोड करा (Android)</span><span class="t-en" lang="en">Download the app (Android)</span>
+          </a>
+          <a href="#price"><span class="t-mr" lang="mr">किंमत आणि सक्रियकरण</span><span class="t-en" lang="en">Price and activation</span></a>
+        </div>
+        <p class="fine">
+          <span class="t-mr" lang="mr">आवृत्ती 1.1, फक्त Android फोनसाठी. आधी मोफत पूर्वावलोकन पाहता येते.</span>
+          <span class="t-en" lang="en">Version 1.1, for Android phones only. You can try a free preview first.</span>
+        </p>
+      </div>
+
+      <div class="sheet" role="img" aria-label="Sample daily report page with a stamp: ₹100 once">
+        <table>
+          <caption>
+            <span class="t-mr" lang="mr">दैनिक अहवाल</span><span class="t-en" lang="en">Daily report</span>
+            <small><span class="t-mr" lang="mr">नमुना</span><span class="t-en" lang="en">sample</span></small>
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col"><span class="t-mr" lang="mr">वस्तू</span><span class="t-en" lang="en">Item</span></th>
+              <th scope="col" class="num"><span class="t-mr" lang="mr">किलो</span><span class="t-en" lang="en">kg</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="t-mr" lang="mr">तांदूळ</span><span class="t-en" lang="en">Rice</span></td><td class="num">142</td></tr>
+            <tr><td><span class="t-mr" lang="mr">गहू</span><span class="t-en" lang="en">Wheat</span></td><td class="num">96</td></tr>
+            <tr><td><span class="t-mr" lang="mr">साखर</span><span class="t-en" lang="en">Sugar</span></td><td class="num">18</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td><span class="t-mr" lang="mr">एकूण</span><span class="t-en" lang="en">Total</span></td><td class="num">256</td></tr>
+          </tfoot>
+        </table>
+        <div class="stamp" aria-hidden="true">
+          <strong>₹100</strong>
+          <span class="t-mr" lang="mr">एकदाच, कायमचे</span><span class="t-en" lang="en">once, for good</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="features">
+    <div class="wrap">
+      <h2><span class="t-mr" lang="mr">ॲप काय करते</span><span class="t-en" lang="en">What the app does</span></h2>
+      <dl class="ledger">
+        <div>
+          <dt><span class="t-mr" lang="mr">दैनिक अहवाल</span><span class="t-en" lang="en">Daily report</span></dt>
+          <dd><span class="t-mr" lang="mr">दिवसभरातील व्यवहारांचा तपशीलवार अहवाल, पीडीएफमध्ये.</span><span class="t-en" lang="en">A detailed report of the day's transactions, as a PDF.</span></dd>
+        </div>
+        <div>
+          <dt><span class="t-mr" lang="mr">मासिक विक्री</span><span class="t-en" lang="en">Monthly sales</span></dt>
+          <dd><span class="t-mr" lang="mr">महिना आणि वर्ष निवडा आणि पूर्ण महिन्याची विक्री एकत्र पहा.</span><span class="t-en" lang="en">Pick a month and year and see the whole month's sales together.</span></dd>
+        </div>
+        <div>
+          <dt><span class="t-mr" lang="mr">मासिक सविस्तर अहवाल</span><span class="t-en" lang="en">Monthly detailed report</span></dt>
+          <dd><span class="t-mr" lang="mr">पोर्टलवरून माहिती आणून महिन्याचा सविस्तर अहवाल तयार होतो.</span><span class="t-en" lang="en">A detailed monthly report built from the portal's data.</span></dd>
+        </div>
+        <div>
+          <dt><span class="t-mr" lang="mr">तारखांची श्रेणी</span><span class="t-en" lang="en">Custom date range</span></dt>
+          <dd><span class="t-mr" lang="mr">तुम्ही निवडलेल्या दोन तारखांमधील अहवाल.</span><span class="t-en" lang="en">A report between any two dates you choose.</span></dd>
+        </div>
+        <div>
+          <dt><span class="t-mr" lang="mr">अहवाल इतिहास</span><span class="t-en" lang="en">Report history</span></dt>
+          <dd><span class="t-mr" lang="mr">आधी तयार केलेले अहवाल फोनवर पुन्हा उघडा, शेअर करा किंवा हटवा.</span><span class="t-en" lang="en">Reopen, share or delete the reports you made earlier. They are saved on your phone.</span></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="block" id="how">
+    <div class="wrap">
+      <h2><span class="t-mr" lang="mr">सुरू कसे करायचे</span><span class="t-en" lang="en">How to get started</span></h2>
+      <ol class="steps">
+        <li>
+          <span class="t-mr" lang="mr">ॲप डाउनलोड करून इंस्टॉल करा. फोनने विचारले तर या ब्राउझरमधून इंस्टॉल करण्याची परवानगी द्या.</span>
+          <span class="t-en" lang="en">Download and install the app. If your phone asks, allow installs from this browser.</span>
+        </li>
+        <li>
+          <span class="t-mr" lang="mr">आधी मोफत पूर्वावलोकन पाहा.</span>
+          <span class="t-en" lang="en">Try the free preview first.</span>
+        </li>
+        <li>
+          <span class="t-mr" lang="mr">नोंदणी करा. जिल्हा कोड, एफपीएस दुकान क्रमांक, मालकाचे नाव आणि मोबाईल क्रमांक टाका.</span>
+          <span class="t-en" lang="en">Register with your district code, FPS shop number, owner name and mobile number.</span>
+        </li>
+        <li>
+          <span class="t-mr" lang="mr">ॲपमध्ये दिसणाऱ्या QR कोडने कोणत्याही UPI ॲपमधून ₹100 भरा. रक्कम आणि नोट आधीच भरलेली असते, ती बदलू नका.</span>
+          <span class="t-en" lang="en">Pay ₹100 from any UPI app using the QR code in the app. The amount and note are already filled in, so don't change them.</span>
+        </li>
+        <li>
+          <span class="t-mr" lang="mr">पेमेंटचा स्क्रीनशॉट निवडून ॲपमधून पाठवा.</span>
+          <span class="t-en" lang="en">Pick your payment screenshot in the app and send it.</span>
+        </li>
+        <li>
+          <span class="t-mr" lang="mr">आम्ही पेमेंट तपासतो. २ तासांच्या आत (सकाळी ९ ते रात्री ९) तुमचे दुकान सक्रिय होते. त्यानंतर ॲपमध्ये मोबाईल नंबर आणि एफपीएस क्रमांकाने लॉगिन करा.</span>
+          <span class="t-en" lang="en">We check the payment. Your shop is activated within 2 hours (9 am to 9 pm). Then log in to the app with your mobile number and FPS number.</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block" id="price">
+    <div class="wrap">
+      <h2><span class="t-mr" lang="mr">किंमत</span><span class="t-en" lang="en">Price</span></h2>
+      <div class="price-row">
+        <span class="price-big">₹100</span>
+        <span class="price-note"><span class="t-mr" lang="mr">एका दुकानासाठी, एकदाच</span><span class="t-en" lang="en">per shop, paid once</span></span>
+      </div>
+      <ul class="checks">
+        <li><span class="t-mr" lang="mr">कायमचा परवाना. कोणतेही सबस्क्रिप्शन नाही.</span><span class="t-en" lang="en">A permanent license. No subscription.</span></li>
+        <li><span class="t-mr" lang="mr">एक परवाना एका एफपीएस दुकानासाठी आहे.</span><span class="t-en" lang="en">One license is for one FPS shop.</span></li>
+        <li><span class="t-mr" lang="mr">पेमेंट UPI ने थेट आमच्या व्यवसाय खात्यावर होते आणि आम्ही ते स्वतः तपासतो.</span><span class="t-en" lang="en">You pay by UPI straight to our business account, and we check each payment ourselves.</span></li>
+        <li><span class="t-mr" lang="mr">तंतोतंत ₹100 भरा. ॲपमधील QR कोडमधली रक्कम आणि नोट बदलू नका.</span><span class="t-en" lang="en">Pay exactly ₹100. Don't change the amount or note in the app's QR code.</span></li>
+      </ul>
+      <p class="measure">
+        <a href="refund.html"><span class="t-mr" lang="mr">परतावा धोरण</span><span class="t-en" lang="en">Refund policy</span></a>
+      </p>
+    </div>
+  </section>
+
+  <section class="block" id="faq">
+    <div class="wrap">
+      <h2><span class="t-mr" lang="mr">वारंवार विचारले जाणारे प्रश्न</span><span class="t-en" lang="en">Common questions</span></h2>
+
+      <details>
+        <summary><span class="t-mr" lang="mr">पैसे भरले, पण दुकान सक्रिय झाले नाही. काय करू?</span><span class="t-en" lang="en">I paid, but my shop is not activated. What do I do?</span></summary>
+        <p><span class="t-mr" lang="mr">२ तासांपर्यंत (सकाळी ९ ते रात्री ९) थांबा. त्यानंतरही सक्रिय न झाल्यास जिल्हा कोड, एफपीएस क्रमांक आणि पेमेंट स्क्रीनशॉटसह आम्हाला ईमेल करा.</span><span class="t-en" lang="en">Wait up to 2 hours (9 am to 9 pm). If it is still not activated, email us your district code, FPS number and payment screenshot.</span></p>
+      </details>
+
+      <details>
+        <summary><span class="t-mr" lang="mr">मी माझा परवाना दुसऱ्या फोनवर वापरू शकतो का?</span><span class="t-en" lang="en">Can I use my license on another phone?</span></summary>
+        <p><span class="t-mr" lang="mr">होय. नवीन फोनवर मोबाईल नंबर आणि एफपीएस क्रमांकाने लॉगिन करा. एक परवाना एका दुकानासाठी आहे, आणि नवीन फोनवर लॉगिन केल्यावर जुन्या फोनवरून लॉगआउट होईल.</span><span class="t-en" lang="en">Yes. Log in on the new phone with your mobile number and FPS number. One license is for one shop, and logging in on the new phone logs you out of the old one.</span></p>
+      </details>
+
+      <details>
+        <summary><span class="t-mr" lang="mr">माझा कोड हरवला आहे. काय करू?</span><span class="t-en" lang="en">I lost my code. What do I do?</span></summary>
+        <p><span class="t-mr" lang="mr">मोबाईल नंबर आणि एफपीएस क्रमांकाने लॉगिन करा. तुमचे सक्रियकरण आपोआप मिळेल. तरीही अडचण असल्यास ॲपमधील "मदत हवी आहे?" वापरा किंवा ईमेल करा.</span><span class="t-en" lang="en">Log in with your mobile number and FPS number and your activation comes back automatically. If you still have trouble, use "Need help?" in the app or send us an email.</span></p>
+      </details>
+
+      <details>
+        <summary><span class="t-mr" lang="mr">अहवालातील माहिती कुठून येते?</span><span class="t-en" lang="en">Where does the report data come from?</span></summary>
+        <p><span class="t-mr" lang="mr">महाराष्ट्र एपीडीएस पोर्टलवरून (epos.mahafood.gov.in), फक्त तुमच्या दुकानासाठी. माहितीची अचूकता पोर्टलवर अवलंबून असते.</span><span class="t-en" lang="en">From the Maharashtra AePDS portal (epos.mahafood.gov.in), for your shop only. How accurate it is depends on the portal.</span></p>
+      </details>
+
+      <details>
+        <summary><span class="t-mr" lang="mr">हे ॲप सरकारी आहे का?</span><span class="t-en" lang="en">Is this a government app?</span></summary>
+        <p><span class="t-mr" lang="mr">नाही. हे एक स्वतंत्र ॲप आहे. त्याचा महाराष्ट्र शासनाशी किंवा अन्न, नागरी पुरवठा व ग्राहक संरक्षण विभागाशी संबंध नाही, आणि त्यांनी ते मंजूर केलेले नाही.</span><span class="t-en" lang="en">No. It is an independent app. It is not connected to, or approved by, the Government of Maharashtra or the Food, Civil Supplies and Consumer Protection Department.</span></p>
+      </details>
+    </div>
+  </section>
+
+  <section class="block" id="help">
+    <div class="wrap">
+      <h2><span class="t-mr" lang="mr">मदत</span><span class="t-en" lang="en">Help</span></h2>
+      <p class="measure">
+        <span class="t-mr" lang="mr">ॲपमधील "मदत हवी आहे?" बॉक्स वापरा, किंवा आम्हाला ईमेल करा. ईमेलमध्ये जिल्हा कोड आणि एफपीएस क्रमांक लिहा.</span>
+        <span class="t-en" lang="en">Use the "Need help?" box in the app, or send us an email. Include your district code and FPS number.</span>
+      </p>
+      <p><a href="mailto:the.elara.co@gmail.com">the.elara.co@gmail.com</a></p>
+      <p class="fine measure">
+        <span class="t-mr" lang="mr">आम्ही फोन किंवा व्हॉट्सॲपवर मदत देत नाही. सर्व मदत ईमेल आणि ॲपमधील बॉक्सद्वारे दिली जाते.</span>
+        <span class="t-en" lang="en">We don't offer help by phone or WhatsApp. All help is by email and the box in the app.</span>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <nav class="foot-links">
+      <a href="privacy.html"><span class="t-mr" lang="mr">गोपनीयता धोरण</span><span class="t-en" lang="en">Privacy policy</span></a>
+      <a href="terms.html"><span class="t-mr" lang="mr">अटी आणि शर्ती</span><span class="t-en" lang="en">Terms and conditions</span></a>
+      <a href="refund.html"><span class="t-mr" lang="mr">परतावा धोरण</span><span class="t-en" lang="en">Refund policy</span></a>
+    </nav>
+    <p>
+      <span class="t-mr" lang="mr">एपीडीएस दुकान अहवाल हे स्वतंत्र ॲप आहे. महाराष्ट्र शासन किंवा अन्न, नागरी पुरवठा व ग्राहक संरक्षण विभागाशी त्याचा संबंध नाही.</span>
+      <span class="t-en" lang="en">AePDS Shop Report is an independent app. It is not connected to the Government of Maharashtra or the Food, Civil Supplies and Consumer Protection Department.</span>
+    </p>
+    <p>© 2026 AePDS Shop Report</p>
+  </div>
+</footer>
+
+</body>
+</html>
